@@ -1,0 +1,94 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: Maaike Van Roy
+first_name: Maaike
+last_name: Van Roy
+email: maaike.vanroy@cs.kuleuven.be
+description: > # this means to ignore newlines until "url:" # KU Leuven PhD researcher at the DTAI research group.
+footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
+  <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  
+
+show_news: false
+show_address: false
+ 
+url: # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
+
+# -----------------------------------------------------------------------------
+# KU Leuven integration
+# -----------------------------------------------------------------------------
+ku_leuven_personnel_number: 0132009
+
+teaching:
+- period: 2019-2020
+  course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H00Y4AE.htm" target="_blank">Big Data Analytics Programming</a>
+
+master_thesis:
+- period: 2019-2020
+  title: Data-Driven Filtering of Football Players by Play Style
+  name: Devashish Deshpande
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: MaaikeVR # your GitHub user name
+twitter_username: MaaikeVanRoy # your Twitter handle
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+
+# contact_note: >
+#   You can reach me on firstname.lastname@cs.kuleuven.be
+
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
+
+
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: rouge #pygments
+
+# Includes & excludes
+include: ['_pages']
+exclude: [vendor]
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
+
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.9.0"
+anchorjs_version: "3.2.2"
