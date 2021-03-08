@@ -4,12 +4,11 @@
 name: Maaike Van Roy
 first_name: Maaike
 last_name: Van Roy
-email: maaike.vanroy@cs.kuleuven.be
+email: maaike.vanroy@kuleuven.be
 description: > # this means to ignore newlines until "url:" # KU Leuven PhD researcher at the DTAI research group.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
   <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   
 
 show_news: false
@@ -25,13 +24,22 @@ last_updated: # leave blank if you don't want to display last updated
 ku_leuven_personnel_number: 0132009
 
 teaching:
-- period: 2019-2020
+- period: 2019-2021
   course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H00Y4AE.htm" target="_blank">Big Data Analytics Programming</a>
+- period: 2019-2020
+  course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H0N05AE.htm" target="_blank">Modelling of Complex Systems</a>
 
 master_thesis:
+- period: 2020-2021
+  title: "Verification of Playing Style in a Markov Model of Football"
+  name: Jeroen Clijmans
+- period: 2020-2021
+  title: "Extending Expected Threat: A Markov Model of Football"
+  name: Maarten Sijmkens
 - period: 2019-2020
-  title: Data-Driven Filtering of Football Players by Play Style
+  title: "Data-Driven Filtering of Football Players by Play Style"
   name: Devashish Deshpande
+
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -76,7 +84,7 @@ highlighter: rouge #pygments
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude: [vendor, bin]
 
 # Plug-ins
 plugins:
@@ -85,6 +93,26 @@ plugins:
     - jekyll/scholar
     - jemoji
 
+# -----------------------------------------------------------------------------
+# Scholar settings
+# -----------------------------------------------------------------------------
+use_scholar: false # Set this to true if you want to use jekyll-scholar instead of Lirias.
+
+scholar:
+    sort_by: year, month
+    last_name: Lastname # Your last name, this enables underlining your name in your publications
+    order: descending
+    bibliography_template: bib
+    bibtex_skip_fields: 
+     - abstract
+     - month_numeric
+     - code
+     - pdf
+     - supp
+     - slides
+     - poster
+     - arxiv
+     - video
 
 # -----------------------------------------------------------------------------
 # Other settings
