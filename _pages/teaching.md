@@ -42,4 +42,4 @@ title: teaching
 
 ### Ombuds Master Computer Science
 
-I am the ombuds for both the Dutch Master Computerwetenschappen and the English Master in Computer Science at KU Leuven. You can reach me at <a href="mailto:ombuds-master@cs.kuleuven.be">ombuds-master@cs.kuleuven.be</a>.
+I am the ombuds for both the Dutch Master Computerwetenschappen and the English Master in Computer Science at KU Leuven. You can reach me at <a href="mailto:ombuds-master-cs@kuleuven.be">ombuds-master-cs@kuleuven.be</a>.
