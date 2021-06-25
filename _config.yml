@@ -31,13 +31,13 @@ teaching:
 
 master_thesis:
 - period: 2020-2021
-  title: "Verification of Playing Style in a Markov Model of Football"
+  title: "Analysis of the Attacking Playing Style of Football Teams based on a Markov Model of Ball Possession Sequences"
   name: Jeroen Clijmans
 - period: 2020-2021
   title: "Extending Expected Threat: A Markov Model of Football"
   name: Maarten Sijmkens
 - period: 2019-2020
-  title: "Data-Driven Filtering of Football Players by Play Style"
+  title: "On Deriving Player Vectors From Match Event Stream Data"
   name: Devashish Deshpande
 
 
