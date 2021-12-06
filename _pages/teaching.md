@@ -9,7 +9,7 @@ title: teaching
 <!-- I am a teaching assistant for the following courses:   -->
 
 {% for item in site.teaching %}
-  <div style="text-indent: 1em;">
+  <div style="text-indent: 0em;">
     <em>{{ item.period }}</em>:
     <strong>
         {{ item.course }}
@@ -20,6 +20,7 @@ title: teaching
         {{ item.note }}
       </p>
     {% endif %}
+    <br/> <br/>
   </div>
 {% endfor %}  
   
@@ -30,10 +31,11 @@ title: teaching
 ### Thesis Advisor
 
 {% for item in site.master_thesis %}
-  <div style="text-indent: 1em;"> 
+  <div style="text-indent: -1em; padding-left: 1em;"> 
     <em>{{item.period}}</em>:
     {{item.name}},
-    "{{item.title}}"
+    "{{item.title}}" <br/>
+    <br/>
   </div>
 {% endfor %}
 

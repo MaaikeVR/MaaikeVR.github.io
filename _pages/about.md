@@ -14,7 +14,7 @@ news: true
 social: true
 ---
 
-Hi, I'm {{ site.first_name }}, a 2nd year PhD student in the <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a> research group at <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>, under the supervision of Professor <a href="https://people.cs.kuleuven.be/~jesse.davis/" target="_blank">Jesse Davis</a>. My research interests include artificial intelligence, data mining and machine learning, especially when applied to sports. 
+Hi, I'm {{ site.first_name }}, a 3rd year PhD student in the <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a> research group at <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>, under the supervision of Professor <a href="https://people.cs.kuleuven.be/~jesse.davis/" target="_blank">Jesse Davis</a>. My research interests include artificial intelligence, data mining and machine learning, especially when applied to sports. 
 
 Prior to starting my PhD, I obtained a Master's degree in Computer Science with a major in Artificial Intelligence at KU Leuven in 2019.
 

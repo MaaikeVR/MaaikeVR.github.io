@@ -24,12 +24,18 @@ last_updated: # leave blank if you don't want to display last updated
 ku_leuven_personnel_number: 0132009
 
 teaching:
-- period: 2019-2021
+- period: 2019-2022
   course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H00Y4AE.htm" target="_blank">Big Data Analytics Programming</a>
 - period: 2019-2020
   course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H0N05AE.htm" target="_blank">Modelling of Complex Systems</a>
 
 master_thesis:
+- period: 2021-2022
+  title: "Data-driven identification of optimal substitutions in soccer"
+  name: Steven Bucaille
+- period: 2021-2022
+  title: "A variational autoencoder approach for learning contextualized representations of soccer players and teams"
+  name: Maxel Withofs
 - period: 2020-2021
   title: "Analysis of the Attacking Playing Style of Football Teams based on a Markov Model of Ball Possession Sequences"
   name: Jeroen Clijmans
