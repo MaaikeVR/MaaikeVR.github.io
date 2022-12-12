@@ -1,11 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Maaike Van Roy
 first_name: Maaike
 last_name: Van Roy
 email: maaike.vanroy@kuleuven.be
-description: > # this means to ignore newlines until "url:" # KU Leuven PhD researcher at the DTAI research group.
+description: > # this means to ignore newlines until "url:" KU Leuven PhD researcher at the DTAI research group.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
   <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
@@ -14,27 +13,27 @@ footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyl
 show_news: false
 show_address: false
  
-url: # the base hostname & protocol for your site
+url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # KU Leuven integration
 # -----------------------------------------------------------------------------
-ku_leuven_personnel_number: 0132009
+ku_leuven_personnel_number: "0132009"
 
 teaching:
-- period: 2019-2022
+- period: 2019-now
   course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H00Y4AE.htm" target="_blank">Big Data Analytics Programming</a>
 - period: 2019-2020
   course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H0N05AE.htm" target="_blank">Modelling of Complex Systems</a>
 
 master_thesis:
 - period: 2021-2022
-  title: "Data-driven identification of optimal substitutions in soccer"
+  title: "Data-driven optimisation of substitutions in football"
   name: Steven Bucaille
 - period: 2021-2022
-  title: "A variational autoencoder approach for learning contextualized representations of soccer players and teams"
+  title: "Learning Contextualized Soccer Player Representations using Variational Autoencoders"
   name: Maxel Withofs
 - period: 2020-2021
   title: "Analysis of the Attacking Playing Style of Football Teams based on a Markov Model of Ball Possession Sequences"
@@ -46,15 +45,14 @@ master_thesis:
   title: "On Deriving Player Vectors From Match Event Stream Data"
   name: Devashish Deshpande
 
-
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: MaaikeVR # your GitHub user name
 twitter_username: MaaikeVanRoy # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+linkedin_username: maaike-van-roy-40a70a20b # your LinkedIn user name
+scholar_userid: KKkhiuIAAAAJ # your Google Scholar ID
+orcid_id: 0000-0001-8959-3575 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 

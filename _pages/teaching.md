@@ -2,14 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-# description: I am a teaching assistant for the following courses
 ---
 
 ### Teaching Assistant 
-<!-- I am a teaching assistant for the following courses:   -->
+I am / was a teaching assistant for the following courses:
 
 {% for item in site.teaching %}
-  <div style="text-indent: 0em;">
+  <div style="text-indent: 2em;">
     <em>{{ item.period }}</em>:
     <strong>
         {{ item.course }}
@@ -26,12 +25,12 @@ title: teaching
   
 <br />
 
-<!-- I am a daily advisor for the following master thesis students:   -->
-
 ### Thesis Advisor
 
+I am / was a daily advisor for the following master thesis students:
+
 {% for item in site.master_thesis %}
-  <div style="text-indent: -1em; padding-left: 1em;"> 
+  <div style="text-indent: 2em; padding-left: 0em;"> 
     <em>{{item.period}}</em>:
     {{item.name}},
     "{{item.title}}" <br/>
@@ -45,3 +44,25 @@ title: teaching
 ### Ombuds Master Computer Science
 
 I am the ombuds for both the Dutch Master Computerwetenschappen and the English Master in Computer Science at KU Leuven. You can reach me at <a href="mailto:ombuds-master-cs@kuleuven.be">ombuds-master-cs@kuleuven.be</a>.
+
+<!-- 
+{% if site.data.teaching.seminars and site.data.teaching.seminars.size>0 %}
+    <h3> Seminars </h3>
+
+
+    {% for item in site.data.teaching.seminars %}
+        <div>
+            <em>{{ item.date }}</em>:
+            <strong> {{item.title}} </strong>
+             <p>
+                 @<a href="{{item.venue_url}}">{{item.venue}}</a>
+
+                 {% if item.description %}<br>
+                     {{ item.description }}
+                 {% endif %}
+             </p> 
+        </div>
+    {% endfor %}
+{% endif %}
+ -->
+

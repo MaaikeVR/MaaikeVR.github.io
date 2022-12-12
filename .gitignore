@@ -4,3 +4,12 @@ _site/
 .idea/
 
 .Gemfile.lock.swp
+
+.sass-cache
+.jekyll-metadata
+.ruby-version
+Gemfile.lock
+vendor
+.bundle
+*.save
+*~
